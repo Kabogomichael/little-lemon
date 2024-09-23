@@ -26,7 +26,6 @@ body {
   margin-top: 1.5rem;
   margin-left: 0px;
   margin-right: 0px;
- 
 
 }
 
@@ -71,19 +70,18 @@ button:focus-visible {
   grid-template-columns: 600px 600px;
   grid-template-rows:  2fr 1fr;
 
+
 }
 .logo{
   margin-top:0px;
   margin-left: 5em;
-  
-
   /* background: rebeccapurple; */
 }
 .list{
   display: flex;
   justify-content: space-evenly;
-  
-
+  list-style-type: none;
+  gap: 8em;
 }
 .container{
   margin-top: 0px;
@@ -91,6 +89,7 @@ button:focus-visible {
   background-color: #495E57;
   display: grid;
   justify-content: space-evenly;
+  gap: 10em;
   grid-template-columns: 600px 600px ;
   grid-template-rows:  2fr 1fr;
 }
@@ -98,12 +97,10 @@ button:focus-visible {
   margin-top: 10px;
   width: 400px;
   height: 500px;
-  border-radius: 10px;
-  
+  border-radius: 20px;
 }
 .card {
   padding: 2em;
-  
 }
 .card h1{
 color: #F4CE14;
