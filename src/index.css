@@ -23,11 +23,11 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin-top: 1.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+ 
+
 }
 
 h1 {
@@ -65,4 +65,57 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.nav{
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows:  2fr 1fr;
+
+}
+.logo{
+  margin-top:0px;
+  margin-left: 5em;
+  
+
+  /* background: rebeccapurple; */
+}
+.list{
+  display: flex;
+  justify-content: space-evenly;
+  
+
+}
+.container{
+  margin-top: 0px;
+  height: 400px;
+  background-color: #495E57;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 600px 600px ;
+  grid-template-rows:  2fr 1fr;
+}
+.img{
+  margin-top: 10px;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  
+}
+.card {
+  padding: 2em;
+  
+}
+.card h1{
+color: #F4CE14;
+}
+.card h4 {
+  color: rgb(190, 187, 187);
+}
+.card p {
+  color: rgb(190, 187, 187);
+}
+.btn{
+  color: rgb(27, 26, 26);
+  font-weight: 600;
+  background-color: #F4CE14;
 }

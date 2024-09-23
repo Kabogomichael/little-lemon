@@ -1,15 +1,16 @@
-import Logo from '../images/Logo.svg'
+import Logo from '../icons_assets/Logo .svg'
 
 const Nav = () => {
     return ( <>
     <nav className='nav'>
-     <section >
+     <section  className='logo'>
         <img  src={Logo}/>
      </section>
-    <ul>
+    <ul className='list'>
         <li><a href=''>Home</a></li>
         <li><a href=''>About</a></li>
-        <li><a href=''>logo</a></li>
+        <li><a href=''>blog</a></li>
+       
     </ul>
     </nav>
     
